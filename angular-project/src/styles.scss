@@ -22,22 +22,85 @@ html {
 }
 
 body {
-  //font-family: var(--font-family);
-  font-weight: normal;
-  background: var(--surface-ground);
-  color: var(--text-color);
-  padding: 1rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
 }
 
+//.card {
+//  padding: 2rem;
+//  border-radius: 10px;
+//  margin-bottom: 1rem;
+//}
 .card {
-  background: var(--surface-card);
-  padding: 2rem;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0 300px;
+  border-radius: 0;
+  margin-bottom: 0;
 }
 
+.p-menubar {
+  margin: 24px 0;
+  padding: 0;
+  background: #fff;
+  color: #1E293B;
+  border: none;
+  border-radius: 0;
+}
 
+.p-menuitem-link {
+  display: flex;
+  gap: 8px;
+}
 
+.p-button.p-button-link {
+  color: #fff;
+}
 
+.p-dataview .p-dataview-header {
+  background-color: #ffffff;
+  border: none;
+}
+
+.main-header{
+  border: 1px solid #e5e7eb;
+}
+
+.p-dataview .p-dataview-header {
+  padding: 0;
+  margin: 32px 0 24px 0;
+}
+
+.card-block {
+  height: 336px;
+  width: 306px;
+  gap: 8px;
+  padding: 0;
+}
+
+.card-img {
+  height: 240px;
+  width: 320px;
+}
+
+.card-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3B82F6;
+}
+
+.card-category {
+  font-size: 14px;
+  color: #64748B;
+}
+
+.card-price {
+  font-size: 18px;
+  color: #1E293B;
+}
+
+.card-button {
+  margin-top: 8px;
+}

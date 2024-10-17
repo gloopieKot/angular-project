@@ -1,5 +1,16 @@
+.header {
+  background-color:#1E293B;
+  height: 58px;
+}
+
 .header-button {
   display: flex;
   justify-content: end;
   gap: 12px;
+}
+
+
+
+.p-button.p-button-link {
+  color: #fff!important;
 }
