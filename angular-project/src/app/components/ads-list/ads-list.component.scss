@@ -1,0 +1,133 @@
+.grid-nogutter {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  //gap: 12px;
+}
+
+
+.card-block {
+    width: 306px;
+    height: 336px;
+    gap: 8px;
+}
+
+h2 {
+  //font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1E293B;
+  margin: 0;
+  padding-top: 16px;
+}
+
+.main-recommendation {
+  padding-top: 32px;
+}
+
+.layout-wrapper {
+  position: relative;
+  background-color: var(--body-bg);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.layout-content {
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 0 118px;
+  z-index: 2;
+  position: relative;
+}
+
+.layout-content .layout-content-inner {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 70px);
+}
+
+.layout-content-inner{
+  height: 36px;
+  padding: 8px 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+
+.main-content-intro {
+  margin-bottom: 24px;
+}
+
+//@media screen and (min-width: 1200px) {
+//  .xl\:col-6 {
+//    flex: 0 0 auto;
+//    //padding: 0.5rem;
+//    width: 50%;
+//  }
+//}
+//@media screen and (min-width: 768px) {
+//  .md\:col-4 {
+//    flex: 0 0 auto;
+//    padding: 0.5rem;
+//    width: 33.3333%;
+//  }
+//}
+//@media screen and (min-width: 576px) {
+//  .sm\:col-6 {
+//    flex: 0 0 auto;
+//    padding: 0.5rem;
+//    width: 50%;
+//  }
+//}
+//.col-12 {
+//  flex: 0 0 auto;
+//  padding: 0.5rem;
+//  width: 100%;
+//}
+@media screen and (min-width: 1200px) {
+  .xl\:col-3 {
+    flex: 0 0 auto;
+    padding: 0.5rem;
+    width: 25%; /* 4 колонки */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:col-6 {
+    flex: 0 0 auto;
+    padding: 0.5rem;
+    width: 50%; /* 4 колонки */
+  }
+}
+
+//@media screen and (min-width: 576px) {
+//  .sm\:col-3 {
+//    flex: 0 0 auto;
+//    padding: 0.5rem;
+//    width: 25%; /* 2 колонки */
+//  }
+//}
+@media screen and (min-width: 576px) {
+  .sm\:col-4 {
+    flex: 0 0 auto;
+    padding: 0.5rem;
+    width: 33.3333%; /* 3 колонки */
+  }
+}
+
+//.col-12 {
+//  flex: col-3 {
+//    flex: 0 0 auto;
+//    padding: 0.5rem;
+//    width: 25%; /* 4 колонки */
+//}
+//}
