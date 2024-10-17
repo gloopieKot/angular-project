@@ -1,0 +1,25 @@
+.header-search {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 12px;
+  height: 52px;
+}
+
+.btn-categories, .header-search-block {
+  height: 36px;
+}
+
+.btn-search {
+  border-radius: 0 4px 4px 0;
+}
+
+h1 {
+  margin: 0 24px 0 0;
+}
+
+input {
+  border-radius: 4px 0 0 4px;
+  width: 534px;
+}
+
