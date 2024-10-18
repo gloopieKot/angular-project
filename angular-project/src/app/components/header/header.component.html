@@ -1,10 +1,15 @@
-<div class="card flex gap-3 header">
-  <div class="header-button">
-  <p-button  label="Войти" [link]="true" icon="pi pi-user" class="p-button-link"
-             routerLink="/" />
-  <p-button  label="Новое объявление" icon="pi pi-plus" routerLink="/" />
+<div class="grid nested-grid header">
+  <div class="col-2 p-0"></div>
+  <div class="col-8 p-0">
+    <div class="grid">
+      <div class="col-12 p-0">
+          <div class="header-button">
+            <p-button  label="Войти" [link]="true" icon="pi pi-user" class="p-button-link"
+                       routerLink="/" />
+            <p-button  label="Новое объявление" icon="pi pi-plus" routerLink="/" />
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="col-2 p-0"></div>
 </div>
-
-
-

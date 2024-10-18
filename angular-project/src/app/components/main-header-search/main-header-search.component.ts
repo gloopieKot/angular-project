@@ -1,5 +1,5 @@
 import { Component, OnInit  } from '@angular/core';
-import {ButtonDirective} from 'primeng/button';
+import {Button, ButtonDirective} from 'primeng/button';
 import { MenuItem } from 'primeng/api';
 import { MenubarModule } from 'primeng/menubar';
 import { BadgeModule } from 'primeng/badge';
@@ -13,7 +13,7 @@ import { RippleModule } from 'primeng/ripple';
   selector: 'app-main-header-search',
   standalone: true,
   imports: [
-    MenubarModule, BadgeModule, AvatarModule, InputTextModule, RippleModule, CommonModule, ButtonDirective
+    MenubarModule, BadgeModule, AvatarModule, InputTextModule, RippleModule, CommonModule, ButtonDirective, Button
   ],
   // providers: [MessageService],
   templateUrl: './main-header-search.component.html',

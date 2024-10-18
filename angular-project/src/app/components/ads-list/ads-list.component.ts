@@ -7,6 +7,7 @@ import { RatingModule } from 'primeng/rating';
 import { ButtonModule } from 'primeng/button';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {RouterLink} from '@angular/router';
+import {RouterModule} from '@angular/router';
 
 @Component({
   selector: 'app-ads-list',
@@ -18,7 +19,8 @@ import {RouterLink} from '@angular/router';
     ButtonModule,
     CommonModule,
     NgOptimizedImage,
-    RouterLink
+    RouterLink,
+    RouterModule
   ],
   providers: [ProductService],
   templateUrl: './ads-list.component.html',

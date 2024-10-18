@@ -1,16 +1,12 @@
 .header {
-  background-color:#1E293B;
   height: 58px;
+  background-color:#1E293B;
 }
 
 .header-button {
   display: flex;
   justify-content: end;
   gap: 12px;
+  padding: 8px 0;
 }
 
-
-
-.p-button.p-button-link {
-  color: #fff!important;
-}
