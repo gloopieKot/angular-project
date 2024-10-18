@@ -40,8 +40,8 @@ export class MainHeaderSearchComponent implements OnInit {
             url: 'https://angular.io/',
             items: [
               {
-                label: 'подкатегория',
-                route: '/installation'
+                label: 'Объявление',
+                route: '/pages/ads/ads-card'
               }
             ]
           },

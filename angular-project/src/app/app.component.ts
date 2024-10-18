@@ -4,6 +4,7 @@ import {AdsListComponent} from './components/ads-list/ads-list.component';
 import {HeaderComponent} from './components/header/header.component';
 import {MainHeaderSearchComponent} from './components/main-header-search/main-header-search.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
