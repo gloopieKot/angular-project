@@ -1,0 +1,171 @@
+.main-navigation {
+  display: flex;
+  align-items: flex-start;
+  width: 386px;
+  height: 24px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  gap: 8px;
+}
+
+.main-navigation-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748B;
+  text-decoration: none;
+}
+
+.main-navigation-link:hover {
+  color: #3B82F6;
+}
+
+.main-navigation-link-delimiter {
+  margin-left: 10px;
+  vertical-align: top;
+  color: #64748B;
+  cursor: default;
+}
+
+.main-block-content {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 32px;
+  gap: 24px;
+}
+
+.main-block-content-left {
+  display: flex;
+  flex-direction: column;
+  width: 986px;
+
+}
+
+/* Slider */
+.main-block-content-left-slider {
+  max-width: 856px;
+  display: block;
+  margin: 0 auto;
+}
+
+.slider-for {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.slider-for img {
+  width: 100%;
+}
+
+.slider-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.slider-nav img {
+  width: 120px !important;
+  height: 84px;
+}
+
+.slick-slide {
+  width: 70px !important;
+  height: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+
+/* content-right */
+.main-block-content-right {
+  width: 416px;
+
+}
+.main-block-content-right-price p {
+  padding-bottom: 16px;
+  //font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1E293B;
+}
+
+.main-block-content-right-btn-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 416px;
+  height: 68px;
+  padding: 20px 59px;
+  border: 0;
+  border-radius: 4px;
+  gap: 12px;
+  background: inherit;
+  background-color: #3B82F6;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.main-block-content-right-btn-phone:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #3B82F6;
+  color: #3B82F6;
+}
+
+
+.main-block-content-right h3 {
+  padding-bottom: 8px;
+  //font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1E293B;
+}
+
+.main-block-content-right span {
+  //font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E293B;
+}
+
+.main-block-content-right-geo {
+  padding-top: 40px;
+}
+
+.main-block-content-right-geo-map {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-block-content-right-geo-map button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  gap: 8px;
+  background-color: #FFFFFF;
+  width: 168px !important;
+  height: 24px;
+  color: #3B82F6;
+  //font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-block-content-right-geo-map button:hover {
+  text-decoration: underline;
+}
+
+.main-block-content-right-info {
+  padding-top: 34px;
+}
+
