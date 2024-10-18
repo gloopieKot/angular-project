@@ -1,12 +1,10 @@
 import { Routes } from '@angular/router';
+import {AdsListComponent} from './components/ads-list/ads-list.component';
+import {AdsCardComponent} from './pages/ads-card/ads-card.component';
+
 
 export const routes: Routes = [
-  {
-    path: '',
-    loadComponent: () => import('./app.component').then(c => c.AppComponent),
-  },
-  {
-    path: 'pages/ads/ads-card',
-    loadComponent: () => import('./pages/ads-card/ads-card.component').then(c => c.AdsCardComponent),
-  }
+
+  {path: 'ads', component: AdsListComponent},
+  {path: 'ad-detailed', component: AdsCardComponent},
 ];
