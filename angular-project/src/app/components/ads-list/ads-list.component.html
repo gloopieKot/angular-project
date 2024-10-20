@@ -23,12 +23,12 @@
 
       <ng-template pTemplate="grid" let-products>
         <div class="grid grid-nogutter">
-          <div class="col-12 sm:col-6 md:col-3 lg:col-3 xl:col-3 p-2 card-block" *ngFor="let product of products">
+          <div class="col-12 sm:col-6 md:col-3 lg:col-3 xl:col-3 card-block" *ngFor="let product of products">
             <a routerLink="/ad-detailed">
-            <div class="p-4 border-1 surface-border surface-card border-round flex flex-column">
-              <div class="surface-50 flex justify-content-center border-round p-3">
+            <div class="surface-card flex flex-column">
+              <div class="surface-50 flex justify-content-center">
                 <div class="relative mx-auto">
-                  <img class="border-round w-full card-img" [src]="product.image"
+                  <img class="w-full card-img" [src]="product.image"
                        [alt]="product.name"  />
                 </div>
               </div>

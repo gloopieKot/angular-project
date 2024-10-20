@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
+// OnInit
 import {HeaderComponent} from '../../components/header/header.component';
 import {MainHeaderSearchComponent} from '../../components/main-header-search/main-header-search.component';
 // import { MenuItem } from 'primeng/api';
@@ -7,6 +8,7 @@ import { PhotoService } from '@service/photoservice';
 import { GalleriaModule } from 'primeng/galleria';
 import { RouterLink, RouterModule } from '@angular/router';
 import {BreadcrumbComponent} from '../../components/breadcrumb/breadcrumb.component';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-ads-card',
@@ -18,34 +20,37 @@ import {BreadcrumbComponent} from '../../components/breadcrumb/breadcrumb.compon
     RouterLink,
     RouterModule,
     BreadcrumbComponent,
-    GalleriaModule
+    GalleriaModule,
+    NgOptimizedImage
   ],
   providers: [PhotoService],
   templateUrl: './ads-card.component.html',
   styleUrl: './ads-card.component.scss'
 })
-export class AdsCardComponent implements OnInit {
-  images: any[] | undefined;
+export class AdsCardComponent {
+  // implements OnInit
 
-  responsiveOptions: any[] | undefined;
-
-  constructor(private photoService: PhotoService) {}
-
-  ngOnInit() {
-    this.photoService.getImages().then((images) => (this.images = images));
-    this.responsiveOptions = [
-      {
-        breakpoint: '1024px',
-        numVisible: 5
-      },
-      {
-        breakpoint: '768px',
-        numVisible: 3
-      },
-      {
-        breakpoint: '560px',
-        numVisible: 1
-      }
-    ];
-  }
+  // images: any[] | undefined;
+  //
+  // responsiveOptions: any[] | undefined;
+  //
+  // constructor(private photoService: PhotoService) {}
+  //
+  // ngOnInit() {
+  //   this.photoService.getImages().then((images) => (this.images = images));
+  //   this.responsiveOptions = [
+  //     {
+  //       breakpoint: '1024px',
+  //       numVisible: 5
+  //     },
+  //     {
+  //       breakpoint: '768px',
+  //       numVisible: 3
+  //     },
+  //     {
+  //       breakpoint: '560px',
+  //       numVisible: 1
+  //     }
+  //   ];
+  // }
 }
